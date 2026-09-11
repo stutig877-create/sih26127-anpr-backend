@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 
-from app.database.models import Alert
+from app.models.alert import Alert
 
 
 class AlertService:

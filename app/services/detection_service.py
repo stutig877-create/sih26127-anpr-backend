@@ -3,7 +3,12 @@ from datetime import datetime
 from sqlalchemy import func
 from sqlalchemy.orm import Session
 
-from app.database.models import Alert, Blacklist, Camera, Detection, Trajectory, Vehicle
+from app.models.alert import Alert
+from app.models.blacklist import Blacklist
+from app.models.camera import Camera
+from app.models.detection import Detection
+from app.models.trajectory import Trajectory
+from app.models.vehicle import Vehicle
 
 
 class DetectionService:

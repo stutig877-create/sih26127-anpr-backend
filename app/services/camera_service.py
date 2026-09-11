@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app.database.models import Camera
+from app.models.camera import Camera
 
 
 class CameraService:

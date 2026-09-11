@@ -2,7 +2,7 @@ from collections import Counter, defaultdict
 
 from sqlalchemy.orm import Session
 
-from app.database.models import Detection
+from app.models.detection import Detection
 
 
 class AnalyticsService:

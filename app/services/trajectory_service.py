@@ -1,5 +1,6 @@
 from sqlalchemy.orm import Session
-from app.database.models import Trajectory, Vehicle
+from app.models.trajectory import Trajectory
+from app.models.vehicle import Vehicle
 
 
 class TrajectoryService:

@@ -1,7 +1,9 @@
 from datetime import datetime
 
 from app.database.connection import SessionLocal, init_db
-from app.database.models import Blacklist, Camera, Detection
+from app.models.blacklist import Blacklist
+from app.models.camera import Camera
+from app.models.detection import Detection
 from app.services.detection_service import DetectionService
 
 

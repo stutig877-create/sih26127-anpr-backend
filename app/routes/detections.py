@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from app.database.connection import get_db
-from app.database.models import Camera, Detection
+from app.models.camera import Camera
+from app.models.detection import Detection
 from app.schemas.detection import DetectionCreate, DetectionResponse, DetectionUpdate
 from app.services.detection_service import DetectionService
 from app.services.live_updates import live_updates

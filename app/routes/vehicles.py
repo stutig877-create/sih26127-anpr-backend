@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from app.database.connection import get_db
-from app.database.models import Vehicle
+from app.models.vehicle import Vehicle
 from app.schemas.vehicle import VehicleCreate, VehicleHistoryResponse, VehicleResponse, VehicleUpdate
 from app.services.vehicle_service import VehicleService
 

@@ -1,5 +1,6 @@
 from sqlalchemy.orm import Session
-from app.database.models import Vehicle, Detection
+from app.models.vehicle import Vehicle
+from app.models.detection import Detection
 
 
 class VehicleService:

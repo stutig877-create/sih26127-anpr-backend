@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from app.database.connection import get_db
-from app.database.models import Alert
+from app.models.alert import Alert
 from app.schemas.alert import AlertResponse, AlertUpdate
 from app.services.alert_service import AlertService
 

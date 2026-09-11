@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app.database.models import Blacklist
+from app.models.blacklist import Blacklist
 
 
 class BlacklistService:

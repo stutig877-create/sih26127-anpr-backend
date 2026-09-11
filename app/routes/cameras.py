@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from app.database.connection import get_db
-from app.database.models import Camera
+from app.models.camera import Camera
 from app.schemas.camera import CameraCreate, CameraResponse, CameraUpdate
 from app.services.camera_service import CameraService
 
